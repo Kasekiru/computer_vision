@@ -1,0 +1,14 @@
+path: ../yolov5/CatModelGaussianBlur
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: cat
+
+roboflow:
+  workspace: little-marmut-ufxal
+  project: cat-model-gaussian-blur
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/little-marmut-ufxal/cat-model-gaussian-blur/dataset/1

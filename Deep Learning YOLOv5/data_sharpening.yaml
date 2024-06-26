@@ -1,0 +1,14 @@
+path: ../yolov5/CatModelSharpening
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: cat
+
+roboflow:
+  workspace: little-marmut-ufxal
+  project: cat-model-sharpening
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/little-marmut-ufxal/cat-model-sharpening/dataset/1
